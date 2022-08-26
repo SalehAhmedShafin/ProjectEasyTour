@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/beach"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/circal"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="Most Popular Cities"
+            android:background="@drawable/btn"
+            android:backgroundTint="@color/purple_700"
+            android:textColor="#ffff"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:id="@+id/mostPopularText"
+            android:visibility="visible">
+
+        </TextView>
+
+            <EditText
+                android:id="@+id/inputSearch"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter City Name"
+                android:textColor="#fff"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColorHint="#fff"
+                android:visibility="gone">
+
+            </EditText>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:id="@+id/recyclerView">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </RelativeLayout>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@drawable/btn"
+            android:backgroundTint="@color/purple_700"
+            android:text="Others"
+            android:textColor="#ffff"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:gravity="center">
+
+        </TextView>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp">
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/circal">
+
+                <ImageView
+
+                    android:id="@+id/currencyConverter"
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/rateconverter">
+
+                </ImageView>
+                <ImageView
+
+                    android:id="@+id/mapp"
+                    android:layout_width="65dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toEndOf="@id/currencyConverter"
+                    android:src="@drawable/mapp">
+
+                </ImageView>
+
+                <ImageView
+
+                    android:id="@+id/weather"
+                    android:layout_width="65dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toEndOf="@id/mapp"
+                    android:src="@drawable/weath">
+
+                </ImageView>
+
+                <ImageView
+
+                    android:id="@+id/aboutUs"
+                    android:layout_width="63dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toEndOf="@id/weather"
+                    android:src="@drawable/about">
+
+                </ImageView>
+
+
+                <ImageView
+                    android:id="@+id/rateUs"
+                    android:layout_width="65dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toEndOf="@id/aboutUs"
+                    android:src="@drawable/rate">
+
+                </ImageView>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.easytour">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EasyTour">
+        <activity android:name=".AhsanPhotosActivity"></activity>
+        <activity android:name=".AlexanderCastleActivity" />
+        <activity android:name=".HasanMonjilActivity" />
+        <activity android:name=".NatoreRajbariActivity" />
+        <activity android:name=".MohastanActivity" />
+        <activity android:name=".TanguarHourActivity" />
+        <activity android:name=".RatargulActivity" />
+        <activity android:name=".SylhetHotelActivity" />
+        <activity android:name=".RangpurHotelActivity" />
+        <activity android:name=".RajshahiHotelActivity" />
+        <activity android:name=".MymensingHotelActivity" />
+        <activity android:name=".KhulnaHotelActivity" />
+        <activity android:name=".CumillaHotelActivity" />
+        <activity android:name=".ChottogramHotelActivity" />
+        <activity android:name=".HironPointActivity" />
+        <activity android:name=".SixtyDomeActivity" />
+        <activity android:name=".DharmosagorActivity" />
+        <activity android:name=".MoinamatiActivity" />
+        <activity android:name=".SaintMartinActivity" />
+        <activity android:name=".CoxBazarActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".MapActivity" />
+        <activity android:name=".WeatherActivity" />
+        <activity android:name=".TajhatJamidarPalaceActivity" />
+        <activity android:name=".SopnopuriActivity" />
+        <activity android:name=".ViewEightActivity" />
+        <activity android:name=".ViewSevenActivity" />
+        <activity android:name=".ViewSixActivity" />
+        <activity android:name=".HotelActivity" />
+        <activity android:name=".AhsanActivity" />
+        <activity android:name=".LalbaghActivity" />
+        <activity android:name=".ViewFiveActivity" />
+        <activity android:name=".ViewFourActivity" />
+        <activity android:name=".ViewThreeActivity" />
+        <activity android:name=".ViewTwoActivity" />
+        <activity android:name=".ForgetPasswordActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".SignupInActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RateUsActivity" />
+        <activity android:name=".AboutUsActivity" />
+        <activity android:name=".CurrencyConverterActivity" />
+        <activity android:name=".ViewActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

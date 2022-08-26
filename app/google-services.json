@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "588083094574",
+    "firebase_url": "https://easytour-33502-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "easytour-33502",
+    "storage_bucket": "easytour-33502.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588083094574:android:20855d0aaa1940de166bbf",
+        "android_client_info": {
+          "package_name": "com.example.easytour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588083094574-dot77t5p97ol2iurklbg4u0kuhn3ipog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAQhAJTPQWXiCTMUZ2RnvJWllPdgwIzs4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588083094574-dot77t5p97ol2iurklbg4u0kuhn3ipog.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588083094574:android:fb5746c814e3fa88166bbf",
+        "android_client_info": {
+          "package_name": "com.example.retriveimage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588083094574-dot77t5p97ol2iurklbg4u0kuhn3ipog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAQhAJTPQWXiCTMUZ2RnvJWllPdgwIzs4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588083094574-dot77t5p97ol2iurklbg4u0kuhn3ipog.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

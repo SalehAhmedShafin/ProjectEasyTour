@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".AboutUsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/aboutuss">
+
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O U R    M I S S I O N"
+        android:textSize="25dp"
+        android:textColor="#ffff"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold">
+    </TextView>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="150dp"
+        android:layout_height="5dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="#ffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="There is no doubt that travel is one of the top three sectors disrupted by technology. Travel apps are taking the center stage in the mobile app development, as more and more people are using them."
+        android:textSize="15dp"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_margin="15dp">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This Travel apps makes our life much easier when we visit a new place. It lets us know about the famous places as well as new hidden gems. Helps with the best route and how you can have the best experience."
+        android:textSize="15dp"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contract us at"
+        android:textSize="25dp"
+        android:textColor="#ffff"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold">
+    </TextView>
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="100dp"
+        android:layout_height="5dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:background="#ffff" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="190104138@aust.edu Or 190104134@aust.edu"
+        android:textSize="15dp"
+        android:textColor="#ffff"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textStyle="bold">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For any Query Concern"
+        android:textSize="15dp"
+        android:textColor="#ffff"
+        android:layout_gravity="center"
+        android:textStyle="bold">
+    </TextView>
+
+
+</LinearLayout>

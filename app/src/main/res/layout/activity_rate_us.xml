@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#90c6e2"
+    android:orientation="vertical"
+    tools:context=".RateUsActivity">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rate The Place"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:background="@drawable/rectangle"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/review">
+
+        </ImageView>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        android:backgroundTint="#424244"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+
+    <RatingBar
+        android:id="@+id/ratingBarId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="4"
+        android:stepSize="1"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:progressBackgroundTint="#7baabd"
+        android:progressTint="#eae446">
+
+    </RatingBar>
+
+
+        <TextView
+            android:id="@+id/textViewId"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#eae446"
+            android:layout_gravity="center">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

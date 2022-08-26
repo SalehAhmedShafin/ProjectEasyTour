@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/currencyconverter"
+    android:orientation="vertical"
+    tools:context=".CurrencyConverterActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        android:background="#6fff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CURRENCY CONVERTER"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp">
+
+
+        </TextView>
+
+        <View
+            android:id="@+id/divider9"
+            android:layout_width="150dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amount"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/black">
+
+            </TextView>
+
+            <EditText
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:hint="Enter Amount"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="@drawable/rectangle"
+                android:id="@+id/txtAmount">
+
+            </EditText>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="From"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20dp">
+
+            </TextView>
+
+            <Spinner
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="65dp"
+                android:background="@drawable/rectangle"
+                android:id="@+id/spFrom">
+
+            </Spinner>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="To"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+            </TextView>
+
+            <Spinner
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="90dp"
+                android:background="@drawable/rectangle"
+                android:id="@+id/spTo">
+
+            </Spinner>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coverted"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/black">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:hint="Converted Value"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:background="@drawable/rectangle"
+                android:id="@+id/displayTxt">
+
+
+            </TextView>
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/btncolor"
+            android:text="Convert"
+            android:id="@+id/converBtn"/>
+
+
+
+    </LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,36 @@
+package com.example.easytour;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
+
+public class HasanMonjilActivity extends AppCompatActivity {
+
+    TextView btn,btn2;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_hasan_monjil);
+
+        btn=findViewById(R.id.txtHotelListMymen);
+        btn2=findViewById(R.id.hasanrate);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getApplicationContext(), MymensingHotelActivity.class);
+                startActivity(intent);
+            }
+        });
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getApplicationContext(), RateUsActivity.class);
+                startActivity(intent);
+            }
+        });
+    }
+}
